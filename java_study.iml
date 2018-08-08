@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/设计模式/单例模式/饿汉/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/设计模式/单例模式/懒汉模式/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/线程安全/火车票案例/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/设计模式/策略模式/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
