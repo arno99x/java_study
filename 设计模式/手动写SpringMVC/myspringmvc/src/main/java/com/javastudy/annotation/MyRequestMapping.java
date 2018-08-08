@@ -1,4 +1,4 @@
-package com.vincent.mybatis.spring.annotation;
+package 手动写SpringMVC.myspringmvc.src.main.java.com.javastudy.annotation;
 
 import java.lang.annotation.*;
 

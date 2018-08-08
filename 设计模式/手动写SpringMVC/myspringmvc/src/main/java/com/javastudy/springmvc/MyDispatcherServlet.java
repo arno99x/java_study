@@ -1,7 +1,7 @@
-package com.vincent.mybatis.spring.springmvc;
+package 手动写SpringMVC.myspringmvc.src.main.java.com.javastudy.springmvc;
 
-import com.vincent.mybatis.spring.annotation.MyController;
-import com.vincent.mybatis.spring.annotation.MyRequestMapping;
+import com.javastudy.annotation.MyController;
+import com.javastudy.annotation.MyRequestMapping;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
@@ -17,15 +17,15 @@ import java.util.*;
 
 public class MyDispatcherServlet extends HttpServlet {
   private Properties properties = new Properties();
-  private List<String> classNames = new ArrayList<>();
-  private Map<String, Object> ioc = new HashMap<>();
-  private Map<String, Method> handlerMapping = new HashMap<>();
-  private Map<String, Object> controllerMap = new HashMap<>();
+  private List<String> classNames = new ArrayList();
+  private Map<String, Object> ioc = new HashMap();
+  private Map<String, Method> handlerMapping = new HashMap();
+  private Map<String, Object> controllerMap = new HashMap();
   
   @Override
   public void init(ServletConfig config) throws ServletException {
     //加载配置文件
-    doLoadConfig(config.getInitParameter("scanPackage"));
+    doLoadConfig(config.getInitParameter("contextConfigLocation"));
     //初始化所有相关关联的类，扫面用户设定的包下面所有的类
     doScanner(properties.getProperty("scanPackage"));
     //拿到扫描到的类，通过反射机制，实例化，并且放到IOC容器中
@@ -41,7 +41,12 @@ public class MyDispatcherServlet extends HttpServlet {
   
   @Override
   protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-  
+    try {
+      //处理请求
+      doDispatch(req,resp);
+    } catch (Exception e) {
+      resp.getWriter().write("500!! Server Exception");
+    }
   }
   
   private void doDispatch(HttpServletRequest request, HttpServletResponse response) throws Exception{
@@ -97,8 +102,9 @@ public class MyDispatcherServlet extends HttpServlet {
   }
   
   private void doLoadConfig(String location){
+    ClassLoader c =this.getClass().getClassLoader();
     //把wen.xml的contextConfigLocation对应的value值的文件加载到流里面
-    InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream(location);
+    InputStream inputStream = c.getResourceAsStream(location);
     
     try{
       //用Properties文件加载文件里的内容
