@@ -1,4 +1,4 @@
-package 手动写SpringMVC.myspringmvc.src.main.java.com.javastudy.springmvc;
+package com.javastudy.springmvc;
 
 import com.javastudy.annotation.MyController;
 import com.javastudy.annotation.MyRequestMapping;

@@ -1,4 +1,4 @@
-package 手动写SpringMVC.myspringmvc.src.main.java.com.javastudy.annotation;
+package com.javastudy.annotation;
 
 import java.lang.annotation.*;
 
