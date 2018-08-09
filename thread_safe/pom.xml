@@ -13,7 +13,6 @@
     <packaging>pom</packaging>
     <description>线程安全</description>
     <modules>
-        <module>singleton_pattern</module>
         <module>railway_ticket</module>
         <module>singleton_safe</module>
     </modules>
