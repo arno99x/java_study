@@ -16,6 +16,7 @@
         <module>my_springmvc</module>
         <module>strategy_pattern</module>
         <module>decorator</module>
+        <module>chain_of_responsibility</module>
     </modules>
 
 
