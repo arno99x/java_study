@@ -1,0 +1,15 @@
+concurrent线程安全包
+
+可见性，原子性
+
+一个线程如果出现了运行时异常，会怎么样？
+如果这个异常没有被捕获，这个线程就停止运行了
+
+wait notify notifyAll
+在调用前都必须先获得对像锁
+wait方法立即释放对象监视器；notify会执行完代码后再释放对象监视器
+
+线程，对象，锁，监视器的关系：线程里可以定义并访问对象，为了访问的安全性，需要对对象加锁，如果加锁失败，线程就会block，
+并进入（ waiting for monitor entry），如果加锁成功，可以选择直接执行逻辑，如果需要获取其他线程执行的结果，当前线程
+就需要挂起（调用wait方法），线程进入java.lang.Thread.State: WAITING (on object monitor)状态，此时线程会释放锁，
+同时进入到monitor entry list；如果其他线程执行完成后进行notify，当前线程也就需要再次获取锁，并获取 object monitor，开始执行
