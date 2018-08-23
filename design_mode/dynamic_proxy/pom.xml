@@ -3,22 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>java_study</artifactId>
+        <artifactId>design_mode</artifactId>
         <groupId>com.arno99x</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>design_mode</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>singleton_pattern</module>
-        <module>my_springmvc</module>
-        <module>strategy_pattern</module>
-        <module>decorator</module>
-        <module>chain_of_responsibility</module>
-        <module>dynamic_proxy</module>
-    </modules>
+    <artifactId>dynamic_proxy</artifactId>
+    <description>动态代理</description>
 
 
 </project>
