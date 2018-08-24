@@ -18,6 +18,8 @@
         <module>decorator</module>
         <module>chain_of_responsibility</module>
         <module>dynamic_proxy</module>
+        <module>aop_write</module>
+        <module>observer_pattern</module>
     </modules>
 
 
