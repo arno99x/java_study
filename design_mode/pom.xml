@@ -20,6 +20,8 @@
         <module>dynamic_proxy</module>
         <module>aop_write</module>
         <module>observer_pattern</module>
+        <module>command_pattern</module>
+        <module>adapter_pattern</module>
     </modules>
 
 
