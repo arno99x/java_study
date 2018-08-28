@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ebbf5d5-cbff-4666-a1e4-e78b3b104b1b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/design_mode/adapter_pattern/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/adapter_pattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/adapter_pattern/src/main/java/com/com/javastudy/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/adapter_pattern/src/main/java/com/com/javastudy/GreenHeadDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/adapter_pattern/src/main/java/com/com/javastudy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/adapter_pattern/src/main/java/com/com/javastudy/Turkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/adapter_pattern/src/main/java/com/com/javastudy/TurkeyAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/adapter_pattern/src/main/java/com/com/javastudy/WildTurkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/adapter_pattern/src/main/java/com/javastudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_mode/press/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_mode/press/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_mode/press/src/main/java/CandyMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_mode/press/src/main/java/HasCoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_mode/press/src/main/java/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_mode/press/src/main/java/OnReadyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_mode/press/src/main/java/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_mode/press/src/main/java/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_mode/press/src/main/java/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_mode/press/src/main/java/WinnerState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design_mode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design_mode/pom.xml" afterDir="false" />
     </list>
@@ -36,6 +36,8 @@
     <ignored path="$PROJECT_DIR$/design_mode/observer_pattern/target/" />
     <ignored path="$PROJECT_DIR$/design_mode/command_pattern/target/" />
     <ignored path="$PROJECT_DIR$/design_mode/adapter_pattern/target/" />
+    <ignored path="$PROJECT_DIR$/design_mode/apperance_pattern/target/" />
+    <ignored path="$PROJECT_DIR$/design_mode/press/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,71 +51,123 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="GreenHeadDuck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_mode/adapter_pattern/src/main/java/com/com/javastudy/GreenHeadDuck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding>
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WildTurkey.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_mode/adapter_pattern/src/main/java/com/com/javastudy/WildTurkey.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-              <folding>
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TurkeyAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_mode/adapter_pattern/src/main/java/com/com/javastudy/TurkeyAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding>
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_mode/adapter_pattern/src/main/java/com/com/javastudy/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/design_mode/adapter_pattern/README.md">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_mode/press/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              </first_editor>
+              <first_editor />
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WinnerState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/WinnerState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CandyMachine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/CandyMachine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+              <folding>
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoldOutState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/SoldOutState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+              <folding>
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnReadyState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/OnReadyState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="28" column="3" selection-start-line="1" selection-start-column="2" selection-end-line="28" selection-end-column="3" />
+              <folding>
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HasCoin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/HasCoin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+              <folding>
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoldState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/SoldState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="27" column="56" selection-start-line="26" selection-start-column="6" selection-end-line="27" selection-end-column="56" />
+              <folding>
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,17 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design_mode/chain_of_responsibility/src/main/java/com/arno99x/filter/AbstractFilterChain.java" />
-        <option value="$PROJECT_DIR$/design_mode/chain_of_responsibility/src/main/java/com/arno99x/filter/StringFilterChain.java" />
-        <option value="$PROJECT_DIR$/design_mode/chain_of_responsibility/src/main/java/com/arno99x/filter/MsgProcessor.java" />
-        <option value="$PROJECT_DIR$/design_mode/chain_of_responsibility/src/main/java/com/arno99x/filter/StringMsgProcessor.java" />
-        <option value="$PROJECT_DIR$/design_mode/chain_of_responsibility/src/main/java/com/arno99x/filter/AbstractMsgProcessor.java" />
-        <option value="$PROJECT_DIR$/design_mode/chain_of_responsibility/src/main/java/com/arno99x/filter/Testfilter.java" />
-        <option value="$PROJECT_DIR$/design_mode/chain_of_responsibility/src/main/java/com/arno99x/filter/Main.java" />
-        <option value="$PROJECT_DIR$/design_mode/dynamic_proxy/pom.xml" />
-        <option value="$PROJECT_DIR$/design_mode/dynamic_proxy/src/main/java/test.java" />
-        <option value="$PROJECT_DIR$/design_mode/dynamic_proxy/src/main/java/com/javastudy/as.java" />
-        <option value="$PROJECT_DIR$/design_mode/dynamic_proxy/src/main/java/com/javastudy/proxy/Moveable.java" />
         <option value="$PROJECT_DIR$/design_mode/dynamic_proxy/src/main/java/com/javastudy/proxy/InvocattionHandler.java" />
         <option value="$PROJECT_DIR$/design_mode/dynamic_proxy/README.md" />
         <option value="$PROJECT_DIR$/design_mode/dynamic_proxy/src/main/java/com/javastudy/proxy/Proxy.java" />
@@ -194,6 +237,17 @@
         <option value="$PROJECT_DIR$/design_mode/adapter_pattern/src/main/java/com/com/javastudy/TurkeyAdapter.java" />
         <option value="$PROJECT_DIR$/design_mode/adapter_pattern/src/main/java/com/com/javastudy/Main.java" />
         <option value="$PROJECT_DIR$/design_mode/adapter_pattern/README.md" />
+        <option value="$PROJECT_DIR$/design_mode/apperance_pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/design_mode/press/pom.xml" />
+        <option value="$PROJECT_DIR$/design_mode/press/README.md" />
+        <option value="$PROJECT_DIR$/design_mode/press/src/main/java/State.java" />
+        <option value="$PROJECT_DIR$/design_mode/press/src/main/java/OnReadyState.java" />
+        <option value="$PROJECT_DIR$/design_mode/press/src/main/java/SoldOutState.java" />
+        <option value="$PROJECT_DIR$/design_mode/press/src/main/java/HasCoin.java" />
+        <option value="$PROJECT_DIR$/design_mode/press/src/main/java/SoldState.java" />
+        <option value="$PROJECT_DIR$/design_mode/press/src/main/java/WinnerState.java" />
+        <option value="$PROJECT_DIR$/design_mode/press/src/main/java/CandyMachine.java" />
+        <option value="$PROJECT_DIR$/design_mode/press/src/main/java/MainTest.java" />
       </list>
     </option>
   </component>
@@ -231,8 +285,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,57 +301,38 @@
               <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_study" type="462c0819:PsiDirectoryNode" />
               <item name="design_mode" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="press" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_study" type="462c0819:PsiDirectoryNode" />
               <item name="design_mode" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="press" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_study" type="462c0819:PsiDirectoryNode" />
               <item name="design_mode" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_study" type="462c0819:PsiDirectoryNode" />
-              <item name="design_mode" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="press" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_study" type="462c0819:PsiDirectoryNode" />
               <item name="design_mode" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="press" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_study" type="462c0819:PsiDirectoryNode" />
-              <item name="design_mode" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -343,7 +376,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.MainTest">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javastudy.proxy.Client" />
       <module name="dynamic_proxy" />
@@ -377,16 +410,10 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.arno99x.filter.Main" />
-      <module name="chain_of_responsibility" />
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <module name="press" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.arno99x.filter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javastudy.proxy.test.Test" />
@@ -488,19 +515,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.InternetWeather" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.MainTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.InternetWeather" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +554,9 @@
       <workItem from="1534851724456" duration="1142000" />
       <workItem from="1534926439356" duration="20961000" />
       <workItem from="1535073716326" duration="9542000" />
-      <workItem from="1535099893550" duration="2981000" />
+      <workItem from="1535099893550" duration="4629000" />
+      <workItem from="1535420356024" duration="4906000" />
+      <workItem from="1535446857764" duration="547000" />
     </task>
     <task id="LOCAL-00001" summary="模块化">
       <created>1533802755006</created>
@@ -564,11 +593,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535083037167</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="适配器模式">
+      <created>1535103743042</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535103743043</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45763000" />
+    <option name="totallyTimeSpent" value="52864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-528" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -584,13 +620,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299389" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32790223" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32790223" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299389" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20181043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20607029" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -607,8 +642,45 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Job Explorer" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299389" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32960597" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Console" order="12" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32790223" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Project Explorer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299389" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3299389" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="SonarLint" order="10" weight="0.32889965" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Data View" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info id="Job Explorer" order="8" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20394036" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.3299389" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32960597" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299389" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398167" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -622,7 +694,8 @@
     <MESSAGE value="责任链模式" />
     <MESSAGE value="动态代理" />
     <MESSAGE value="观察者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="观察者模式" />
+    <MESSAGE value="适配器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="适配器模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -638,86 +711,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design_mode/dynamic_proxy/src/main/java/com/javastudy/proxy/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_mode/dynamic_proxy/src/main/java/com/javastudy/proxy/test/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_mode/dynamic_proxy/src/main/java/com/javastudy/proxy/test/TimeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="1821" column="53" selection-start-line="1821" selection-start-column="53" selection-end-line="1821" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_mode/dynamic_proxy/src/main/java/com/javastudy/proxy/TimeHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="65" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_mode/dynamic_proxy/src/main/java/com/javastudy/proxy/Tank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_mode/dynamic_proxy/src/main/java/com/javastudy/proxy/Moveable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_mode/dynamic_proxy/src/main/java/com/javastudy/proxy/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_mode/aop_write/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/design_mode/dynamic_proxy/src/main/java/com/javastudy/aop_write/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="4" selection-start-column="4" selection-end-line="2" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_mode/strategy_pattern/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_mode/strategy_pattern/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/design_mode/strategy_pattern/src/main/java/com/study/demo1/IStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -911,12 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,12 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -937,14 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,9 +932,120 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="270">
-            <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_mode/apperance_pattern/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/design_mode/apperance_pattern/README.md" />
+    <entry file="file://$PROJECT_DIR$/design_mode/press/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_mode/press/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/OnReadyState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="3" selection-start-line="1" selection-start-column="2" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/HasCoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/SoldOutState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/SoldState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="56" selection-start-line="26" selection-start-column="6" selection-end-line="27" selection-end-column="56" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/WinnerState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_mode/press/src/main/java/CandyMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+          <folding>
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

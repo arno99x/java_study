@@ -22,6 +22,8 @@
         <module>observer_pattern</module>
         <module>command_pattern</module>
         <module>adapter_pattern</module>
+        <module>apperance_pattern</module>
+        <module>press</module>
     </modules>
 
 
